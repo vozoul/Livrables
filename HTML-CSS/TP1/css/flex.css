@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    flex-grow: 1 10;
+    width: 100%;
+    height: 100vh;
+}
+
+.aside{
+    background-color: lime;
+    width: 200px;
+}
+
+.col-right{
+    width: 100%;
+    background-color: red;
+}
+
+header{
+    background-color: aqua;
+    height: 90px;
+}
+
+main{
+    background-color: #fff;
+}

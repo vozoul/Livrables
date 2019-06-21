@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+	<head>
+		<title>Vozoul</title>
+		<meta charset="utf-8">
+		
+		<style>
+			*{
+				padding: 0;
+				margin: 0;
+				text-align: center;
+				text-decoration: none;
+			}
+			
+			img, a, div, h2{
+			border: none;
+			}
+			
+			body{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				background: #080808;
+				height: 95vh;
+				width: 100%;
+				color:orange;
+				overflow: hidden;
+			}
+						
+			.intox{
+				position: absolute;
+				top: 10px;
+				opacity: 0;
+				line-height: 25px;
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				color: #fff;
+				-webkit-animation: youpi 0.3s linear forwards 0.5s, youpla 0.5s ease forwards 4s;
+				-moz-animation: youpi 0.3s linear forwards 0.5s, youpla 0.5s ease forwards 4s;
+				animation: youpi 0.3s linear forwards 0.5s, youpla 0.5s ease forwards 4s;
+			}
+			
+			hr{
+				color: #aaa;
+				width: 100%;
+				margin-top: -20px;
+				box-shadow: 0 0 30px #fff;
+			}
+			
+			#grognon{
+				position: absolute;
+				padding-bottom: 70px;
+				-webkit-animation: grr 25s linear infinite;
+				-moz-animation: grr 25s linear infinite;
+				animation: grr 25s linear infinite;
+			}
+			
+			@-webkit-keyframes grr{
+				0%{left: -5%;} 100%{left: 105%;}
+			}
+			@-moz-keyframes grr{
+				0%{left: -5%;} 100%{left: 105%;}
+			}
+			@keyframes grr{
+				0%{left: -5%;} 100%{left: 105%;}
+			}
+			
+			@-webkit-keyframes youpi{
+				0%{opacity: 0;} 100%{opacity: 1;}
+			}
+			@-moz-keyframes youpi{
+				0%{opacity: 0;} 100%{opacity: 1;}
+			}
+			@keyframes youpi{
+				0%{opacity: 0;} 100%{opacity: 1;}
+			}
+			
+			@-webkit-keyframes youpla{
+				0%{opacity: 1;} 100%{opacity: 0;}
+			}
+			@-moz-keyframes youpla{
+				0%{opacity: 1;} 100%{opacity: 0;}
+			}
+			@keyframes youpla{
+				0%{opacity: 1;} 100%{opacity: 0;}
+			}
+		</style>
+		
+	</head>
+	<body>
+		<div class="intox">
+			<p>
+				<h4>Site optimisé pour le plein écran appuyez sur :"F11".</h4>
+			</p>
+		</div>
+		<div id="grognon">
+			<img src="./webroot/grogne.gif" height="85px" width="60px" />
+		</div>
+		<p>
+			<img src="./webroot/2logo.png" />
+			<hr />
+			<h2>
+				<br />
+				<i>En raison d'une obsolescence des infrastructures, on change de crèmerie.</i>
+				<br />
+				<i>Due to obsolete infrastructures, we change host.</i>
+			</h2>
+		</p>
+	</body>
+</html>

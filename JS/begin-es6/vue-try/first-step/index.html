@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css.css">
+    <title>VueJS</title>
+</head>
+<body>
+    <div id="app">
+
+
+        <button @click="show = !show">
+            Mon Site !
+        </button>
+        <p v-if="show">
+            <a :href="link" target="blank"> {{ message }} </a>
+            <p :class="cls">{{ message2 }}</p>
+            <button @click="modif()"> test </button>
+        </p>
+        <input type="checkbox" v-model="cls" :true-value="'success'" :false-value="'danger'">
+
+
+    </div>
+    <script src="vue.js"></script>
+    <script src="script.js"></script>
+    <script src="http://localhost:8098"></script>
+</body>
+</html>

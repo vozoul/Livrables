@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    height: 100px;
+    border-bottom: double red;
+}
+
+/* CARTE */
+
+main.type-carte{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(98vh - 100px);
+}
+
+a{
+    display: block;
+    background: rgba(0, 0, 0, .5);
+    border: 1px solid #000;
+    min-width: 250px;
+    min-height: 400px;
+}
+
+.card{
+    flex: 1;
+}
+
+/* CAROUSEL */
+
+main.type-carousel{
+    width: 80%; max-width: 1050px;
+}
+
+figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+}

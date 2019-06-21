@@ -1,0 +1,44 @@
+@media (min-device-width: 521px){
+
+
+.footer {
+    background-color: #FF99CC;
+    font-size: 1rem;
+    /*height: 75px;*/
+}
+
+.lien {
+    display: flex;
+    justify-content: space-around;
+}
+
+.droitexploitation {
+    text-align: center;
+}
+}
+a {
+    color: black;
+}
+* {
+     margin: 0px;
+     padding: 0px;
+
+ }
+
+@media handholder, (max-device-width: 520px) {
+    .lien {
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+    }
+
+    .droitexploitation {
+        text-align: center;
+    }
+
+    .footer {
+        background-color: #FF99CC;
+        font-size: 1.1rem;
+        /*height: 150px;*/
+    }
+}
